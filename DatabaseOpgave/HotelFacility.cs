@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace DatabaseOpgave
 {
-    public class Hotel
+    public class HotelFacility
     {
         public int HotelID { get; set; }
-        public string Name { get; set; }
-
-        public string Address { get; set; }
+        public int FacilityID { get; set; }
+        public string Floor { get; set; }
         public override string ToString()
         {
-            return $"ID: {HotelID}, Name: {Name}, Address: {Address}";
+            return $"Hotel ID:{HotelID}, Facility ID: {FacilityID}, Etage: {Floor}";
         }
     }
 }

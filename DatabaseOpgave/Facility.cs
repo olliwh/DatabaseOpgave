@@ -8,6 +8,7 @@ namespace DatabaseOpgave
 {
     public class Facility
     {
+     
         public int FacilityID { get; set; }
 
         public string Name { get; set; }
